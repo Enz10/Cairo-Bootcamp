@@ -1,0 +1,10 @@
+2.
+    a) O(n): It is the one that takes the longest to solve the algorithm is linearly dependent on the input.
+    
+       O(1): The solution is independent of the inputs.
+
+       O(log n): The time taken is proportional to the log of inputs.
+
+3. The best is O(1).
+
+4. Because strong privacy features are not supported yet by the protocol.

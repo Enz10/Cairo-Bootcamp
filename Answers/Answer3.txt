@@ -1,0 +1,22 @@
+1.
+    b)  A pointer to a block of memory to which it may write its outputs.
+
+2,3.
+
+    %builtins output
+
+    func square(x: felt) -> (r: felt){
+        return(r = x * x);
+    }
+
+    // Import the serialize_word() function.
+    from starkware.cairo.common.serialize import serialize_word
+
+    func main{output_ptr: felt*}() {
+
+        let (x) = square(5);
+        
+        serialize_word(x);
+        
+        return ();
+    }
